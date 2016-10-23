@@ -16,15 +16,15 @@
     </head>
     <body>
         <header>
-        
-        <h1>InstaGrim ! </h1>
-        <h2>Your world in Black and White</h2>
+            <img src="http://imgkk.com/i/v246.png" alt="InstagrimBanner" style="width:100%;height:100px">
+            
         </header>
         
         <nav>
             <ul>
-                <li class="nav"><a href="/Instagrim/upload.jsp">Upload</a></li>
-                <li class="nav"><a href="/Instagrim/Images/majed">Sample Images</a></li>
+                <li class="nav"><a href="/Instagrim">Home</a></li>
+                <li class="nav"><a href="/Instagrim/Upload">Upload</a></li>
+                
             </ul>
         </nav>
  
@@ -50,9 +50,7 @@
         %>
         </article>
         <footer>
-            <ul>
-                <li class="footer"><a href="/Instagrim">Home</a></li>
-            </ul>
+            &COPY; Andy C & Stephen McK
         </footer>
     </body>
 </html>

@@ -9,8 +9,66 @@ and open the template in the editor.
 */
 
 
-nav {
+nav { 
+     
+    margin: 0;
+    padding: 0;   
     text-align: left;
-    border: 2px;
-    float: right;
+    border: 0px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a6071a;
+}
+
+nav li {
+    float: left;
+    display: inline;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 15px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #FF0B28;
+}  
+
+li {
+    color: white;
+     
+}
+
+h1 {
+    color: white;
+     
+}
+h2 {
+    color: white;
+     
+}
+h3 {
+    color: white;
+     
+}
+
+      
+
+   
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444444;
+}
+footer{
 }

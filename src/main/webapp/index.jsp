@@ -16,39 +16,42 @@
     </head>
     <body>
         <header>
-            <h1>InstaGrim ! </h1>
-            <h2>Your world in Black and White</h2>
+            <img src="http://imgkk.com/i/v246.png" alt="InstagrimBanner" style="width:100%;height:100px">
+            
         </header>
         <nav>
+            <link rel="stylesheet" type="text/css" href="Styles.css" />
+            
             <ul>
 
-               
-                <li><a href="upload.jsp">Upload</a></li>
+               <li ><a href="/Instagrim">Home</a></li>
+                
                     <%
                         
                         LoggedIn lg = (LoggedIn) session.getAttribute("LoggedIn");
                         if (lg != null) {
                             String UserName = lg.getUsername();
-                            if (lg.getlogedin()) {
+                            if (lg.getLoggedIn()) {
                     %>
-
+                <li><a href="/Instagrim/Upload">Upload</a></li>
                 <li><a href="/Instagrim/Images/<%=lg.getUsername()%>">Your Images</a></li>
                     <%}
                             }else{
                                 %>
-                 <li><a href="register.jsp">Register</a></li>
-                <li><a href="login.jsp">Login</a></li>
+                 <li><a href="/Instagrim/Register">Register</a></li>
+                <li><a href="/Instagrim/Login">Login</a></li>
                 <%
                                         
                             
                     }%>
+                
             </ul>
         </nav>
         <footer>
-            <ul>
-                <li class="footer"><a href="/Instagrim">Home</a></li>
-                <li>&COPY; Andy C</li>
-            </ul>
+            
+                
+                &COPY; Andy C & Stephen McK
+            
         </footer>
     </body>
 </html>

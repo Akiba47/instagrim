@@ -15,13 +15,13 @@
     </head>
     <body>
         <header>
-        <h1>InstaGrim ! </h1>
-        <h2>Your world in Black and White</h2>
+            <img src="http://imgkk.com/i/v246.png" alt="InstagrimBanner" style="width:100%;height:100px">
+            
         </header>
         <nav>
             <ul>
+                <li class="nav"><a href="/Instagrim">Home</a></li>
                 
-                <li><a href="/Instagrim/Images/majed">Sample Images</a></li>
             </ul>
         </nav>
        
@@ -30,7 +30,7 @@
             <form method="POST"  action="Login">
                 <ul>
                     <li>User Name <input type="text" name="username"></li>
-                    <li>Password <input type="password" name="password"></li>
+                    <li>Password  <input type="password" name="password"></li>
                 </ul>
                 <br/>
                 <input type="submit" value="Login"> 
@@ -38,9 +38,7 @@
 
         </article>
         <footer>
-            <ul>
-                <li class="footer"><a href="/Instagrim">Home</a></li>
-            </ul>
+            &COPY; Andy C & Stephen McK
         </footer>
     </body>
 </html>

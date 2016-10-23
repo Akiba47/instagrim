@@ -75,7 +75,7 @@ public class Image extends HttpServlet {
         int command;
         try {
             command = (Integer) CommandsMap.get(args[1]);
-        } catch (Exception et) {
+        } catch (Exception get) {
             error("Bad Operator", response);
             return;
         }
@@ -138,7 +138,7 @@ public class Image extends HttpServlet {
             HttpSession session=request.getSession();
             LoggedIn lg= (LoggedIn)session.getAttribute("LoggedIn");
             String username="majed";
-            if (lg.getlogedin()){
+            if (lg.getLoggedIn()){
                 username=lg.getUsername();
             }
             if (i > 0) {
@@ -156,6 +156,7 @@ public class Image extends HttpServlet {
         }
 
     }
+    
 
     private void error(String mess, HttpServletResponse response) throws ServletException, IOException {
 
